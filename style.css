@@ -1,0 +1,132 @@
+:root{
+    --branco-principal: #ffffff;
+    --cinza-secundario: #838383;
+    --cor-de-fundo: #151515;
+    --cor-de-fundo-secundaria: #202020;
+    --cor-botao: #0eba1f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.container__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    font-size: 48px;
+}
+
+.container__primario{
+    background-color: var(--cor-de-fundo-secundaria);
+    padding: 20px;
+    margin: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.titulo__drone{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.container__drone{
+    display: flex;
+    align-items: center;
+}
+
+.drone__img{
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.container__descricao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.container__explicacao{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    width: 450px;
+}
+
+.container__explicacao:hover{
+    transform: scale(1.02);
+}
+
+.descricao__drone{
+    font-size: 26px;
+}
+
+.link__drone{
+    text-decoration: none;
+    color: var(--cinza-secundario);
+}
+
+.link__drone:hover{
+    color: #2b70e0;
+}
+
+.descricao__drone{
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.container__caracteristicas{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    width: 450px;
+}
+
+.container__caracteristicas:hover{
+    transform: scale(1.05);
+}
+
+.titulo__caracteristicas{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.container__lista{
+    margin: 10px 0 5px 20px;
+    list-style: none;
+}
+
+.container__botao a{
+    text-decoration: none;
+    background-color: var(--cor-botao);
+    color: var(--branco-principal);
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container__botao a:hover{
+    background-color: #0e8a1f;
+    transform: scale(1.05);
+}
